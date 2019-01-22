@@ -1,2 +1,2 @@
 def echo(s):
-    return s
+    return s.rstrip()
