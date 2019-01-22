@@ -17,3 +17,6 @@ def test_linear_echo():
 
 def test_double_space_echo():
     assert echo("Hello,  world!") == "Hello, world!"
+
+def test_double_space_at_end_echo():
+    assert echo("Hello,  world!  ") == "Hello, world!"
