@@ -8,3 +8,6 @@ def test_that_strings_work():
 
 def test_echo():
     assert echo("Hi, world!") == "Hi, world!"
+
+def test_multi_echo():
+    assert echo("Hi, ") + echo("world!") == "Hi, world!"
