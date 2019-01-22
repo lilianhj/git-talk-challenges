@@ -14,3 +14,6 @@ def test_multi_echo():
 
 def test_linear_echo():
     assert echo("Hello, " + "world!") == echo("Hello, ") + echo("world!")
+
+def test_double_space_echo():
+    assert echo("Hello,  world!") == "Hello, world!"
