@@ -11,3 +11,6 @@ def test_echo():
 
 def test_multi_echo():
     assert echo("Hi, ") + echo("world!") == "Hi, world!"
+
+def test_linear_echo():
+    assert echo("Hi, " + "world!") == echo("Hi, ") + echo("world!")
